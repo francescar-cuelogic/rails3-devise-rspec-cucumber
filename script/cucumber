@@ -5,6 +5,6 @@ if vendored_cucumber_bin
   load File.expand_path(vendored_cucumber_bin)
 else
   require 'rubygems' unless ENV['NO_RUBYGEMS']
-  require 'cucumber'
+  #require 'cucumber'
   load Cucumber::BINARY
 end
